@@ -44,10 +44,13 @@ This software is distributed under the Apache 2.0 license.
 """,
     
     install_requires = [
-        "sunburnt>=0.6"
+        "sunburnt>=0.6",
+        "sqlalchemy>=0.7"
     ],
 
     packages = find_packages(),
+    namespace_packages = ['solrnode'],
+    
     scripts = SCRIPT_FILES,
 
     include_package_data = True,

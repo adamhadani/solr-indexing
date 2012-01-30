@@ -44,8 +44,10 @@ This software is distributed under the Apache 2.0 license.
 """,
     
     install_requires = [
+        "lxml>=2.3.3",
+        "httplib2>=0.7.2",
         "sunburnt>=0.6",
-        "sqlalchemy>=0.7"
+        "sqlalchemy>=0.7.5"
     ],
 
     packages = find_packages(),

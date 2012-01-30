@@ -8,6 +8,9 @@ as indexing into a sharded installation (using some hash-based or rule-based sch
 
 ## Requirements
 
+* sunburnt - Excellent python Solr client
+* sqlalchemy - (Optional) Comprehensive Python ORM framework
+
 All the requirements should be automatically installed when using the setuptools setup.py script
 
 ## Installation
